@@ -4,8 +4,8 @@
 </head>
 <body>
     Halo Kawan.. Yuk kita belajar web programming..!!!<br>
-    $n1 = <?= $nilai1; ?>
-    $n2 = <?= $nilai2; ?>
+    Nilai1 = <?= $nilai1; ?>
+    Nilai2 = <?= $nilai2; ?>
     ini hasil dari pemodelan dengan methode penjumlahan yaitu <?=
     $nilai1 . " + " . $nilai2 . " = " . $hasil; ?>
 </body>
