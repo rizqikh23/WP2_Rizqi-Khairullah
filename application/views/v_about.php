@@ -15,6 +15,7 @@
     <ul type="none">
         <li>Cirebon</li>
     </ul>
+    <br>
     <h4>Olah Raga Favorit</h4>
     <ul type="square">
         <li>Bulutangkis</li>
