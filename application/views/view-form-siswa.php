@@ -59,11 +59,16 @@
                         <input type="text" name="alamat" id="alamat">
                     </td>
                 </tr>
-                <form action="view-form-siswa.php"></form> <p>Jenis Kelamin</p>
-                <input type="radio" id="laki" name="jeniskelamin" value="Laki-Laki">
-                <label for="laki">Laki-Laki</label><br>
-                <input type="radio" id="perempuan" name="jeniskelamin" value="Perempuan">
-                <label for="perempuan">Perempuan</label>
+                <tr>
+                    <th>Jenis Kelamin</th>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" id="laki" name="jeniskelamin" value="Laki-Laki">
+                        <label for="laki">Laki-Laki</label>
+                        <input type="radio" id="perempuan" name="jeniskelamin" value="Perempuan">
+                        <label for="perempuan">Perempuan</label>
+                    </td>
+                </tr>
                 <tr>
                     <th>Agama</th>
                     <td>:</td>
@@ -82,7 +87,7 @@
                 <tr>
                     <td colspan="3" align="center">
                         <input type="submit" value="Submit">
-                    </td>
+                    </td><br>
                 </tr>
             </table>
         </form>
